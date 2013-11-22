@@ -1,4 +1,8 @@
 Demoapp::Application.routes.draw do
+  get "static_pages/home"
+  get "static_pages/help"
+  get "staic_pages/home"
+  get "staic_pages/help"
   resources :users
 
   # The priority is based upon order of creation: first created -> highest priority.
